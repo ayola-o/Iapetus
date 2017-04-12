@@ -1,0 +1,29 @@
+*{
+	border: 1px solid #000;
+}
+
+.h1{
+  color: #FFF;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin-top: 0;
+  margin-bottom: 0.5rem; }
+}
+#header{
+	margin-top: 30px;
+}
+#menu{
+	text-align: right;
+}
+#homebutton{
+	border: 1px solid black;
+}
+#homerow{
+	margin-top: 145px;
+    display: block;
+}
+#fontcolor{
+	color: #88C9F6;
+	font-family: 'Raleway', sans-serif;
+}
