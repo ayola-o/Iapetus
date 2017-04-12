@@ -1,29 +1,32 @@
+/*
 *{
 	border: 1px solid #000;
 }
+*/
+#homebutton{
+	background-color: #F8F8F8; 
+	color:#5A90BC;;
+	border: 1px solid #5A90BC;
+	border-radius: 4px;
+}
 
-.h1{
-  color: #FFF;
-  text-align: center;
-  font-size: 1.5rem;
-  line-height: 1.4;
-  margin-top: 0;
-  margin-bottom: 0.5rem; }
-}
-#header{
-	margin-top: 30px;
-}
 #menu{
 	text-align: right;
-}
-#homebutton{
-	border: 1px solid black;
 }
 #homerow{
 	margin-top: 145px;
     display: block;
+    margin-right: 10px;
 }
-#fontcolor{
+#headercolor{
 	color: #88C9F6;
 	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+}
+#paragraphcolor{
+	color: #88C9F6;
+	font-family: 'Raleway', sans-serif;
+}
+#homebody{
+	background-color:#F8F8F8;
 }

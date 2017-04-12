@@ -1613,11 +1613,14 @@ kbd {
       background-color: #5e5e5e;
       color: #fefefe; }
   .button.success {
-    background-color: #3adb76;
-    color: #0a0a0a; }
+  background-color: #F8F8F8; 
+  color:#5A90BC;
+  border: 1px solid #5A90BC;
+  border-radius: 4px;
+  margin-top: 10px; }
     .button.success:hover, .button.success:focus {
-      background-color: #22bb5b;
-      color: #0a0a0a; }
+      background-color: #F8F8F8;
+      color: #5A90BC; }
   .button.warning {
     background-color: #ffae00;
     color: #0a0a0a; }
@@ -2272,7 +2275,8 @@ select {
 
 .menu {
   margin: 0;
-  list-style-type: none; }
+  list-style-type: none;
+  margin-top: 30px; }
   .menu > li {
     display: table-cell;
     vertical-align: middle; }
