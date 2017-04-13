@@ -33,6 +33,7 @@
 	font-family: Segoe UI;
 	font-weight: bold;
 }
+
 #homebody{
 	background-color:#F8F8F8;
 }
@@ -40,8 +41,28 @@
 	background-color:#F8F8F8;
 }
 #about{
-	margin-top: -85px;
+	margin-top: -50px;
 }
 #beli{
 	font-size: 100px;
+}
+#h1color{
+	color: #f8f8f8;
+	font-family: Segoe UI;
+	font-weight: bold;
+}
+#questions{
+	background-color: #88C9F6;
+}
+#pcolor{
+	color: #f8f8f8;
+	font-family: Segoe UI;
+	font-weight: bold;
+}
+#questionbutton{
+	background-color: #5A90BC;
+	color: #F8F8F8;
+	border: 1px solid #F8F8F8;
+	border-radius: 4px;
+    margin-top: 10px; 
 }
