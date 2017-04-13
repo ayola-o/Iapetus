@@ -9,7 +9,7 @@
 	font-weight: bold;
 }
 #homebutton{
-	background-color: #F8F8F8; 
+	background-color: #F8F8F8;
 	color:#5A90BC;;
 	border: 1px solid #5A90BC;
 	border-radius: 4px;
@@ -33,4 +33,13 @@
 }
 #homebody{
 	background-color:#F8F8F8;
+}
+#aboutbody{
+	background-color:#F8F8F8;
+}
+#about{
+	margin-top: -85px;
+}
+#beli{
+	font-size: 100px;
 }
