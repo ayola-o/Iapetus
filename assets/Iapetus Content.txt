@@ -1,0 +1,61 @@
+Question 1:
+Please choose an appropriate sex:
+
+a. Male
+b. Female
+c. Bobrisky
+
+Question 2:
+What do you do for a living ?
+
+a. Developer
+b. Designer
+c. Content provider
+d. Banker
+e. Teacher
+f. Woman of the night
+g. Doctor
+h. Lawyer
+i. Taxify/Uber driver
+j. Staying woke on twitter
+k. Alariwo
+l. I am a Nigerian Politician
+
+Question 3:
+How much do you earn monthly currently ?
+
+a. 10k - 50k
+b. 50k - 100k
+c. 100k - 500k
+d. 500k - 1,000,0000
+e. Nothing, I am an intern
+f. I earn in dollars
+g. I am a Nigeran politician
+
+Question 4:
+How many assets do you have ?
+P.S: Examples of assets are your cars, your houses, lands etc.
+
+a. LOL
+b. 1-3
+c. 3-5
+d. 5-10
+e. I am a Nigerian politician
+
+Question 5:
+How much debt are you in right now
+
+a. None
+b. < 100k
+c. 100k - 500k
+d. 500k - 1,000,000
+e. I am a Nigerian politician
+
+
+This is the most important question, so pay attention
+
+Question 6:
+Are you single ?
+
+a. Yes
+b. No
