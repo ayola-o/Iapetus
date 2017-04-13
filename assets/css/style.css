@@ -26,10 +26,12 @@
 #headercolor{
 	color: #88C9F6;
 	font-family: Segoe UI;
+	font-size: 80px;
 }
 #paragraphcolor{
 	color: #88C9F6;
 	font-family: Segoe UI;
+	font-weight: bold;
 }
 #homebody{
 	background-color:#F8F8F8;
