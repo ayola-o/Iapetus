@@ -41,7 +41,7 @@
 	background-color:#F8F8F8;
 }
 #about{
-	margin-top: -128px;
+	margin-top: -50px;
 }
 #beli{
 	font-size: 100px;
@@ -75,8 +75,19 @@
 	padding: 5px;
 	margin-right: 100px;
 	position: relative;
-	left: 581px;
+	top: -60px;
+	left: 800px;
 	margin-top: -235px;
-	width: 250px;
-	height: 250px;
+	width: 300px;
+	height: 300px;
+}
+#image1{
+	padding: 5px;
+	margin-right: 100px;
+	position: relative;
+	top: -60px;
+	left: 800px;
+	margin-top: -235px;
+	width: 300px;
+	height: 350px;
 }
