@@ -64,11 +64,9 @@
 	color: #F8F8F8;
 	border: 1px solid #F8F8F8;
 	border-radius: 4px;
-<<<<<<< HEAD
     margin-top: 10px;
-=======
+
     margin-top: 10px; 
->>>>>>> origin/master
 }
 #answer{
 	color: #88C9F6;
@@ -79,7 +77,6 @@
 	padding: 5px;
 	margin-right: 100px;
 	position: relative;
-<<<<<<< HEAD
 	top: -60px;
 	left: 800px;
 	margin-top: -235px;
@@ -100,8 +97,28 @@
 margin-top: -250px;
 margin-left: 200px;
 }
-=======
+/*
 	left: 581px;
 	margin-top: -235px;
 }
->>>>>>> origin/master
+*/
+.next_button{
+    background-color: #F8F8F8;
+    color: #5A90BC;
+    border: 1px solid #5A90BC;
+    border-radius: 4px;
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 1rem 0;
+    padding: 0.85rem 1em;
+    transition: background-color 0.25s ease-out, color 0.25s ease-out; */
+    font-size: 0.9rem;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    bottom: -183px;
+    left: 224px;
+}
+
