@@ -36,16 +36,16 @@ function displayCurrentQuestion() {
 
     var question = questions[currentQuestion].question;
     var question_no = questions[currentQuestion].number;
+    var choiceList = $('.options').html('<label class="options_label"></label>');
     var numChoices = questions[currentQuestion].choices.length;
 
     $('.question_no').html(question_no);
     $('.question').text(question);
-    $('.options').html('<label class="options_label"></label>');
 
     var choice;
     for (i = 0; i<numChoices; i++){
     	choice = questions[currentQuestion].choices[i];
-   $('<input type="radio" value=' + i + ' name="'+question_no+'" /><label for="' + i + '"><p id="pcolor">' + choice + '</p></label><br>').appendTo('.options_label');
+   $('<input type="radio" value=' + i + ' name="'+question_no+'" /><label for="' + i + '"><p id="pcolor">' + choice + '</p></label><br>').appendTo(choiceList);
           }
       }
  
@@ -58,5 +58,25 @@ $(".next_button").on("click", function () {
      currentQuestion++;
 
      displayCurrentQuestion();
+      if(!quizOver) {
+
+        answers = $("input[type='radio']:checked").val();
+      
+         if(answers == 1) {
+          $("#about").load("answerpagetwitter.html");
+         } else {
+          $(document).find(".quizMessage").hide();
+         }
+}
 
    });
+
+$(".prev_button").on("click", function () {
+
+     currentQuestion--;
+
+     displayCurrentQuestion();
+
+   });
+
+  

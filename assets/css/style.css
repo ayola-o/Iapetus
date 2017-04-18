@@ -118,7 +118,21 @@ margin-left: 200px;
     text-align: center;
     cursor: pointer;
     position: relative;
-    bottom: -183px;
-    left: 224px;
 }
-
+.prev_button{
+    background-color: #F8F8F8;
+    color: #5A90BC;
+    border: 1px solid #5A90BC;
+    border-radius: 4px;
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 1rem 0;
+    padding: 0.85rem 1em;
+    transition: background-color 0.25s ease-out, color 0.25s ease-out; */
+    font-size: 0.9rem;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+}
