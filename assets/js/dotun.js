@@ -48,26 +48,37 @@ function displayCurrentQuestion() {
    $('<input type="radio" value=' + i + ' name="'+question_no+'" /><label for="' + i + '"><p id="pcolor">' + choice + '</p></label><br>').appendTo(choiceList);
           }
       }
+
+  function displayScores(){
+
+var value = $("input[type='radio']:checked").val(); 
+
+ var answers = [];
+
+ value = answers;
+
+
+for (var i= 0; i< answers.length; i++){
+  var current = answers[i];
+  console.log(current);
+}
+
+}
  
   $(document).foundation()
 
   displayCurrentQuestion();
 
+  displayScores();
+
 $(".next_button").on("click", function () {
 
      currentQuestion++;
-
+           
+      displayScores();
+           
      displayCurrentQuestion();
-      if(!quizOver) {
 
-        answers = $("input[type='radio']:checked").val();
-      
-         if(answers == 1) {
-          $("#about").load("answerpagetwitter.html");
-         } else {
-          $(document).find(".quizMessage").hide();
-         }
-}
 
    });
 
@@ -76,6 +87,8 @@ $(".prev_button").on("click", function () {
      currentQuestion--;
 
      displayCurrentQuestion();
+
+     displayScores();
 
    });
 
